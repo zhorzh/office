@@ -5,7 +5,7 @@ from fabtools import require, supervisor
 def setup():
     sudo('apt-get update')
     sudo('apt-get install -y git')
-    sudo('apt-get install -y postgresql postgresql-contrib')
+    sudo('apt-get install -y postgresql postgresql-contrib libpq-dev')
     sudo('apt-get install -y nginx')
     sudo('apt-get install -y nodejs')
     sudo('ln -s /usr/bin/nodejs /usr/bin/node')
