@@ -6,3 +6,4 @@ behave
 ipdb
 ipython
 psycopg2
+requests
