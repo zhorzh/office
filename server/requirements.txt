@@ -2,3 +2,7 @@ http://github.com/mitsuhiko/flask/zipball/master#egg=Flask-dev
 gunicorn==19.3.0
 Flask-SQLAlchemy
 flake8
+behave
+ipdb
+ipython
+psycopg2
