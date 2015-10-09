@@ -36,9 +36,10 @@ Feature: user API
         Then response status code is 404
 
     Scenario: create and delete user
-        Given valid us
-        When POST
-        And GET user response status code is 404
+        Given valid user
+        When POST user
+        And GET user
+        Then response status code is 200
                         
     Scenario: create and patch user email
         Given valid user
