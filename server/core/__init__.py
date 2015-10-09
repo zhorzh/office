@@ -23,3 +23,6 @@ def home_page():
 # connect blueprints
 from identity import blueprint
 app.register_blueprint(blueprint, url_prefix='/api')
+
+# connect application CLI
+from core.commands import commands
